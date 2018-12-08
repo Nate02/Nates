@@ -1,0 +1,58 @@
+<div>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div>
+      <input type="text" formControlName="title" placeholder="title">
+    </div>
+    <div>
+      <input type="text" formControlName="content" placeholder="content">
+    </div>
+    <div>
+      <button type="submit">
+        <span *ngIf="!submitted">Submit</span>
+        <span *ngIf="submitted"><i class="fas fa-spinner fa-spin"></i></span>
+      </button>
+    </div>
+    <div *ngIf="!valid" id="err">Please fill in all form fields </div>
+    
+  </form>
+</div>
+
+<p>
+  <strong>L.I.F.E</strong> offers a comprehensive program that services the parenting and parenting
+  adolescent population. We purpose to meet the mental, emotional, physical and spiritual needs of
+  pregnant and parenting teens, and their children. We offer support services that assist in their
+  healthy development in order to break the cycles of welfare dependancy, child abuse, and repeat
+  pregnanies.</p>
+
+<p> Teens must be supported, as well as, educated during and after their pregnancies. With
+  professional services and the use of trained volunteers, <strong>L.I.F.E</strong> provides teen
+  specific care with the neccesary tools, resources, and opportunities to equip and encourage them
+  during this intricate phase in their life. In an effort to save children birthed by teen parents
+  from a life of drugs, alcohol, abuse, poverty, and illiteracy, we equip them with knowledge and
+  understanding. These two powerful tools are known to develop leaders that become productive in
+  their communities. <strong>L.I.F.E</strong> offers Lamaze classes, quarterly group baby showers,
+  weekly suppport groups, mentor relationships, tutoring, summer camp, special events, and so much
+  to set the stage for optimal births and life outcomes for these young families.
+</p>
+
+<p>
+  Teen Pregnancy is an issue that affects people of all race, social economic status, and
+  geographical locations. Southern California alone has shown an overwhelming amount of births among
+  teenagers in recent years, which continues to escalate despite the many efforts by the country and
+  state. Consequently, many of these pregnancies result in abortion, abandonment, and/or abuse
+</p>
+
+<p>
+  It is our endeavor to be good stewards over the harvest by planting seeds in our participants that
+  can be nurtured throughout their life. The program is geared to meet individual needs at their
+  level of development, in order to transition smoothly through their necessary stages, to be better
+  prepared for life.
+</p>
+
+<p> Behind everything we do is the influence of God's unconditional love, which is felt by everyone
+  he brings our way. Thank you for all your support in this awesome and much needed endeavor.
+</p>
+<p>Blessings,</p>
+<p>Marsha K. Wilson, Director</p>
+</body>
+

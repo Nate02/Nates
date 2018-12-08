@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LifeTeens</title>
+</head>
+
+<body>
+  <h1>​L.I.F.E<br>(Loving Interactions For Eternity)</h1>​
+  <div class="jack">
+    <h1 class="jill">WHAT WE DO</h1>
+  </div>
+  <div class="row">
+
+    <div class="column">
+
+      <h3 id="hat"> BABYSHOWERS!</h3>
+      <img src="jackjack.png" alt="jackjack" height="460" width="400">
+    </div>
+    <div class="column">
+      <h3 class="pos"> REUNIONS!</h3>
+      <img src="reunpic.jpg" alt="reunionpicture" height="460" width="400">
+    </div>
+    <div class="column">
+      <h3 class="pos">MUCH MORE!</h3>
+      <img src="Freebaby.png" alt="Freebaby" height="460" width="400">
+    </div>
+  </div>
+
+  <div class="jack">
+    <h1 class="jill"> Become a Volunteer Today! </h1>
+  </div>
+  <div id="jap">
+    <p class="getit ni"> As A Non-Profit, We understand and appreciate the sacrifice that is made to help with each and
+      every event. We also realize how none of these events would be at all possible without the help
+      of each and everyone. That is why at the end of every event we make sure to give each and every
+      one of our volunteers a present which is just a fun way to say thank you!
+    </p>
+    <div>
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div id="what">
+          <h4 style="color:black">Email Address:</h4>
+          <input type="text" formControlName="title" placeholder="Email" size="160">
+
+          <button type="submit">
+            <span *ngIf="!submit">Submit</span>
+          </button>
+          <div *ngIf="!valid && (valid != null)" id="err"> Please fill in valid email </div>
+          <div *ngIf="valid" id="good"> Thank You for Submitting</div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="jack">
+
+  </div>
+
+</body>
+
+</html>

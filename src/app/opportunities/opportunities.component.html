@@ -1,0 +1,37 @@
+<h1> LIFE OPPORTUNITIES</h1>
+
+<div class="blog-link" (click)="viewBlog()">
+<H2>Cgroup</H2>
+<p>
+  Cgroup is our support group in which all of our moms and dads help each other to become better
+  parents and help wherever needed. When you come to the support group we will have a completion 
+  card for you to fill out. In our session we will have a leader who talks about multiple issues regarding
+  parenting including your connect card which gets adressed anonymously. Some of the issues that we have talked 
+  about in the past have been healthy lifestyles, healthy eating habits, relationships, and dating. 
+</p>
+<h2> Baby Showers</h2>
+<p> 
+  Having a baby is an amazing and exciting time in the life of any parent! Unfortunately they are expensive, 
+  and some teen parents may not have the financial stability to  
+</p>
+</div>
+
+
+<div>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <div>
+        <input type="text" formControlName="title" placeholder="Email">
+      </div>
+      <div>
+        <input type="text" formControlName="content" placeholder="Which Event">
+      </div>
+      <div>
+        <button type="submit">
+          <span *ngIf="!submitted">Submit</span>
+          <span *ngIf="submitted"><i class="fas fa-spinner fa-spin"></i></span>
+        </button>
+      </div>
+      <div *ngIf="!valid" id="err"> Please fill in all form fields </div>
+      
+    </form>
+  </div>

@@ -1,0 +1,88 @@
+body{
+    background-image:url(closeup.jpg);
+    height:800px;
+    width:100%;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+
+h1{
+    padding:300px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:66.47px;
+    color:black;
+}
+.jack{
+    background-color:#1180FD;
+    height: 245px;
+}
+
+.jill{
+    text-align:center;
+    padding:100px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size:50px;
+}
+
+.john{
+    background-color:white;
+    height:500px;
+    color:black;
+}
+
+#jap{
+    background-color:white;
+    height:300px;
+}
+
+.meme{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#june{
+    padding-left: 125px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 53.5px;
+}
+
+.row{
+        content: "";
+        clear: both;
+        display: table;
+}
+.pos{
+        color: black;
+        padding-left: 120px;
+}
+#hat{
+        padding-left: 90px;
+        color:black;
+}
+.getit{
+    color:black;
+    font-size:30px;
+}
+.ni{
+    padding-top:20px;
+}
+
+#what{
+    padding-top:10px;
+    font-size: 16pt;
+    padding-left:25px;
+}
+#err{
+    color:red;
+}
+#good{
+    color: #000;
+}

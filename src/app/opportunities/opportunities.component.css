@@ -1,0 +1,19 @@
+#err{
+    font-size: 14px;
+    color: lightcoral;
+}
+body{
+    background-image: url("https://wallpapertag.com/wallpaper/full/d/a/9/377536-baby-background-2722x1814-for-macbook.jpg");
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+h2{
+    color: lightcoral;
+}
+
+h2:hover{
+    cursor: pointer;
+    color: black;
+}
+
+      
