@@ -1,5 +1,5 @@
 body{
-    background-image:url(closeup.jpg);
+    background-image:url(src/assets/closeup.jpg);
     height:800px;
     width:100%;
     font-family: "Times New Roman", Times, serif;
@@ -16,6 +16,7 @@ h1{
 .jack{
     background-color:#1180FD;
     height: 245px;
+    text-align:center;
 }
 
 .jill{
@@ -34,7 +35,7 @@ h1{
 
 #jap{
     background-color:white;
-    height:300px;
+    height:500px;
 }
 
 .meme{

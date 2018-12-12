@@ -1,19 +1,28 @@
-#err{
-    font-size: 14px;
-    color: lightcoral;
+.noice{
+    height:325px;
+    background-color:#1180FD;
+    color:white;
+    text-align: center;
+    padding-top:162.5px;
 }
-body{
-    background-image: url("https://wallpapertag.com/wallpaper/full/d/a/9/377536-baby-background-2722x1814-for-macbook.jpg");
-    background-repeat: repeat-y;
-    background-repeat: repeat-x;
+.funny{
+    font-size: 16pt;
+    padding:50px;
 }
-h2{
-    color: lightcoral;
+.fun{
+padding:2px;
 }
-
-h2:hover{
-    cursor: pointer;
-    color: black;
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 53.5px;
 }
-
-      
+.pos{
+    float: right;
+    width: 33.33%;
+    padding: 53.5px;
+}
+.height{
+    height: 400px;
+    width: 400px;
+}
